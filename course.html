@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Web Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+
+    </section>
+
+
+<!-------- Our Courses ----------->
+
+<section class="course">
+    <h1>Courses That We Offer</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+
+<div class="row">
+    <div class="course-col">
+        <h3>Intermediate</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+    </div>
+     <div class="course-col">
+        <h3>Degree</h3>
+       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+    </div>
+     <div class="course-col">
+        <h3>Post Graduation</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+    </div>
+</div>
+
+</section>
+
+
+<!-------- faciliti----------->
+
+    <section class="facilitie">
+        <h1>The Facilities of Campus</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+
+    <div class="row">
+    <div class="facilitie-col">
+        <img src="images/library.png">
+            <h3>Our Library</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>  
+    </div>
+    <div class="facilitie-col">
+        <img src="images/basketball.png">
+            <h3>Our Basketball Arena</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>  
+    </div>
+    <div class="facilitie-col">
+        <img src="images/cafetaria.png">
+            <h3>Our Cafetaria</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>  
+    </div>
+</div>
+
+    </section>
+
+
+
+
+<!-------- Footer ----------->
+
+<section class="footer">
+ <h4>About Us</h4>
+    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+    <p>Made With <i class="fa fa-heart"></i> AS</p>
+</section>
+
+<!-------- JavaScript for Menu ----------->
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+
+           function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+
+    </script>
+</body>
+</html>
